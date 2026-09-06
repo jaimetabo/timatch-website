@@ -1,4 +1,21 @@
-# timatch-website — nur noch Umleitungen
+> # ⛔️ STILLGELEGT — dieses Repo wird nicht mehr benutzt
+>
+> **Stand 6. September 2026.** `app.timatch.de` zeigt **nicht mehr hierher**. Die Weiterleitung
+> macht seitdem STRATO selbst: eine Subdomain im Domainpaket TIMATCH (7070811) mit „Umleitung
+> Extern" auf `https://timatch.de/`. Der CNAME-Eintrag `app → jaimetabo.github.io` ist entfernt.
+>
+> **Hier ist nichts mehr zu tun.** Änderungen an der Website gehören nach
+> [`jaimetabo/timatch-web`](https://github.com/jaimetabo/timatch-web) — dort liegt seit dem
+> 23. August 2026 alles: Landingpage, Hilfe, Rechtstexte. Auch die vier Auffangseiten für die
+> alten `.html`-Adressen liegen dort im Wurzelverzeichnis, weil die STRATO-Umleitung den Pfad
+> beibehält.
+>
+> Das Repo ist **archiviert** und bleibt als Beleg stehen. Es zu löschen bringt nichts und nimmt
+> die Historie mit.
+
+---
+
+# timatch-website — stillgelegt
 
 Dieses Repo bediente `app.timatch.de` mit Hilfe, Support und den Rechtstexten. **Seit dem
 23. August 2026 liegen diese Inhalte auf `timatch.de`** (Repo `jaimetabo/timatch-web`), im neuen
@@ -14,14 +31,15 @@ Hier stehen nur noch Umleitungen:
 | `app.timatch.de/datenschutz.html` | `timatch.de/datenschutz/` |
 | `app.timatch.de/privacy.html` | `timatch.de/en/privacy/` |
 
-## Warum das hier nicht einfach gelöscht wird
+## Warum es damals hierblieb — und warum das nicht mehr galt
 
-Die alten Adressen stehen in **App Store Connect** und in **jeder bereits ausgelieferten Fassung
-der App**. Eine veröffentlichte App kann man nicht zurückholen: Wer eine ältere Version behält,
-tippt weiterhin auf `app.timatch.de/datenschutz.html`. Eine tote Adresse in einer Datenschutz-
-Verlinkung ist schlimmer als eine Umleitung, die ewig steht.
+Die Begründung lautete: Die alten Adressen stünden in App Store Connect und in jeder bereits
+ausgelieferten Fassung der App, und eine veröffentlichte App könne man nicht zurückholen.
 
-**Dieses Repo bleibt bestehen, und der CNAME-Eintrag `app` bei STRATO bleibt bestehen.**
+**Der zweite Teil stimmte nicht.** Die App war am 6. September 2026 nur in TestFlight, nicht im
+Store — es gab also gar keine ausgelieferte Fassung, die man nicht mehr erreichen könnte. App
+Store Connect war zu dem Zeitpunkt längst auf `timatch.de` umgestellt. Damit fiel der Grund weg,
+für fünf Weiterleitungsseiten ein eigenes Repository zu betreiben.
 
 ## Wie umgeleitet wird
 
